@@ -16,6 +16,7 @@
 \*------------------------------------*/
 $yellow: #f1c40f;
 $red: #902b15;
+$sans-serif: "Lato", Helvetica, Arial, sans-serif;
 
 /* global box-sizing */
 *,
@@ -39,7 +40,7 @@ html {
 	font-size: 16px;
 }
 body {
-	font-family: "Lato", Helvetica, Arial, sans-serif;
+	font-family: $sans-serif;
 	color:#444;
 }
 /* clear */
@@ -113,6 +114,7 @@ input:focus {
 /* nav */
 .nav {
 	float: right;
+	font-family: 
 	
 	ul {
 	margin: 0;
@@ -120,10 +122,9 @@ input:focus {
 	}
 	
 	li{
-		padding: 20px;
-		margin: 0;
-		display: inline-block;
-
+	padding: 20px;
+	margin: 0;
+	display: inline-block;
 
 		a {
 		font-size: 20px;
@@ -175,6 +176,9 @@ article#post {
 		color: white;
 		background: rgba(0, 0, 0, 0.2);
 		text-transform: uppercase;
+		text-shadow: 1px 1px 0px #333;
+		border: 5px rgba(0, 0, 0, 0.5) solid;
+
 
 		h1 {
 			margin-top: 0;
@@ -184,6 +188,7 @@ article#post {
 		}
 
 		h3 {
+			margin: 0;
 			padding: 0 20px;
 			font-size: 20px;
 		}
