@@ -7,7 +7,7 @@ Template Name: Home Page
  	<div class="banner">
  		<div class="titlebox">
  			<h1>Proudfeet</h1>
- 			<h3>Front-end web developer working line by line to make the world a better place</h3>
+ 			<h3>Front-end web developer working line by line to make the web a better place</h3>
  		</div>
 
  	</div>
@@ -15,15 +15,15 @@ Template Name: Home Page
 
 
 
-	<main class="wrapper" role="main">
+	<main class="contenthere" role="main">
 		<!-- section -->
-		<section>
+		<section class="wrapper">
 
-		<p class="headline"> Hi, I'm Simon, but you might know me as Proudfeet.</p>
+		<p id="headline" class="headline"> Hi, I'm Simon, but you might know me as Proudfeet.</p>
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<article class="post homepage" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<?php the_content(); ?>
 
 				

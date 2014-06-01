@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-	<main class="wrapper" role="main">
+	<main class="contenthere" role="main">
 		<!-- section -->
-		<section>
+		<section class="wrapper">
 
 			
 

@@ -254,7 +254,7 @@ input:focus {
 \*------------------------------------*/
 /* wrapper */
 .wrapper {
-  max-width: 1000px;
+  max-width: 900px;
   width: 95%;
   margin: 0 auto;
   position: relative;
@@ -265,18 +265,28 @@ input:focus {
   background: black;
   color: white;
   text-transform: uppercase;
+  position: fixed;
+  z-index: 500;
+  width: 100%;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.7);
 }
 
 /* logo */
 .logo {
   width: 20%;
   float: left;
+  text-align: center;
 }
 
 h2 {
   font-size: 25px;
   color: white;
   letter-spacing: -1px;
+  transition: all 0.2s;
+}
+
+h2:hover {
+  color: #902b15;
 }
 
 /* nav */
@@ -308,6 +318,7 @@ h2 {
 footer {
   background: black;
   clear: both;
+  border-top: 10px solid #902b15;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   color: white;
   text-align: right;
@@ -325,6 +336,8 @@ footer .icon {
   margin-right: 10px;
   border-radius: 50%;
   transition: all 0.2s;
+  position: relative;
+  bottom: 0;
 }
 footer .github {
   background: url(img/icons/github.png);
@@ -338,7 +351,7 @@ footer .linkedin {
   background: url(img/icons/linkedin.svg) center;
 }
 footer a:hover .icon {
-  box-shadow: 0 5px 0 #902b15;
+  bottom: 10px;
 }
 footer p.copyright {
   padding: 50px;
@@ -350,6 +363,10 @@ footer p.copyright {
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
+main.contenthere {
+  background: url(img/whiteWall.png);
+}
+
 article#post {
   color: #333;
   font-size: 20px;
@@ -360,13 +377,13 @@ article#post {
   background: white url(img/simonProudfootHeadshot3Min.jpg) center no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding: 150px;
+  padding-top: 225px;
+  padding-bottom: 150px;
   width: 100%;
   border-bottom: 10px solid #f1c40f;
 }
 .banner .titlebox {
   width: 500px;
-  height: 250px;
   margin: 0 auto;
   text-align: center;
   color: white;
@@ -383,11 +400,26 @@ article#post {
 }
 .banner .titlebox h3 {
   margin: 0;
-  padding: 0 20px;
+  padding: 0 20px 50px;
   font-size: 20px;
 }
 
-article.post {
+p.headline {
+  margin: 0;
+  padding: 50px 0;
+  font-size: 60px;
+  font-weight: 900;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+article.homepage {
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 60px;
+}
+
+article#post {
   width: 70%;
   float: left;
 }
