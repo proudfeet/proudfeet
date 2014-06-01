@@ -1,13 +1,27 @@
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
+			
+				<div class="wrapper">
 
-				<!-- copyright -->
-				<p class="copyright">
-					&copy; <?php echo date('Y'); ?> Copyright <?php bloginfo('name'); ?>. <?php _e('Powered by', 'html5blank'); ?>
-					<a href="//wordpress.org" title="WordPress">WordPress</a> &amp; <a href="//html5blank.com" title="HTML5 Blank">HTML5 Blank</a>.
-				</p>
-				<!-- /copyright -->
+					<div class="socialicons">
+						<a href="http://www.github.com/proudfeet" alt="Github" title="Github">
+							<div class="icon github"></div>
+						</a>
+						<a href="http://www.twitter.com/proudfeet_" alt="Twitter" title="Twitter">
+							<div class="icon twitter"></div>
+						</a>
+						<a href="http://ca.linkedin.com/pub/simon-proudfoot/33/1b6/8b4/" alt="LinkedIn" title="LinkedIn">
+							<div class="icon linkedin"></div>
+						</a>
+					</div>
 
+
+					<!-- copyright -->
+					<p class="copyright">
+						&copy; <?php echo date('Y'); ?>  Proudfeet
+					</p>
+					<!-- /copyright -->
+				</div>
 			</footer>
 			<!-- /footer -->
 

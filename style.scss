@@ -85,7 +85,7 @@ input:focus {
 
 /* wrapper */
 .wrapper {
-	max-width: 900px;
+	max-width: 1000px;
 	width:95%;
 	margin:0 auto;
 	position:relative;
@@ -94,7 +94,8 @@ input:focus {
 .header {
 	background: black;
 	color: white;
-	border-bottom: 5px solid $red;
+	text-transform: uppercase;
+	// border-bottom: 5px solid $red;
 }
 /* logo */
 .logo {
@@ -106,7 +107,6 @@ input:focus {
 		font-size: 25px;
 		color: white;
 		letter-spacing: -1px;
-		text-transform: uppercase
 	}
 
 
@@ -114,22 +114,27 @@ input:focus {
 /* nav */
 .nav {
 	float: right;
-	font-family: 
+	font-family: $sans-serif;
 	
 	ul {
-	margin: 0;
-	padding: 0;	
+		margin: 0;
+		padding: 0;	
 	}
 	
 	li{
-	padding: 20px;
-	margin: 0;
-	display: inline-block;
+		padding-top: 27px;
+		margin: 0;
+		display: inline-block;
 
 		a {
-		font-size: 20px;
-		color: white;
-		padding: 20px;
+			font-size: 20px;
+			color: white;
+			padding: 20px;
+			transition: all 0.2s;
+			}
+
+		a:hover {
+			border-bottom: 5px solid $red;
 		}
 	}
 
@@ -145,8 +150,54 @@ input:focus {
 footer {
 	background: black;
 	clear: both;
+	font-family: $sans-serif;
+	color: white;
+	text-align: right;
 
+	.socialicons {
+		width: 40%;
+		float: left;
+		padding-top: 35px;
+		padding-bottom: 35px;
+	}
+
+	.icon {
+		width: 45px;
+		height: 45px;
+		float: left;
+		margin-right: 10px;
+		border-radius: 50%;
+		transition: all 0.2s;
+	}
+
+	.github {
+		background: url(img/icons/github.png);
+		background-size: contain;
+	}
+
+	.twitter {
+		background: url(img/icons/twitter.svg);
+		background-size: contain;
+	}
+
+	.linkedin {
+		background: url(img/icons/linkedin.svg) center;
+	}
+
+	a:hover .icon{
+		box-shadow: 0 5px 0 $red;
+	}
+
+
+	p.copyright {
+		padding: 50px;
+		margin: 0;
+		font-size: 18px;
+		text-transform: uppercase;
+	}
 }
+
+
 
 /*------------------------------------*\
     PAGES
@@ -182,7 +233,7 @@ article#post {
 
 		h1 {
 			margin-top: 0;
-			padding-top: 75px;
+			padding-top: 40px;
 			letter-spacing: -1px;
 			font-size: 45px;
 		}

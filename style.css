@@ -254,7 +254,7 @@ input:focus {
 \*------------------------------------*/
 /* wrapper */
 .wrapper {
-  max-width: 900px;
+  max-width: 1000px;
   width: 95%;
   margin: 0 auto;
   position: relative;
@@ -264,7 +264,7 @@ input:focus {
 .header {
   background: black;
   color: white;
-  border-bottom: 5px solid #902b15;
+  text-transform: uppercase;
 }
 
 /* logo */
@@ -277,18 +277,19 @@ h2 {
   font-size: 25px;
   color: white;
   letter-spacing: -1px;
-  text-transform: uppercase;
 }
 
 /* nav */
 .nav {
   float: right;
-  font-family: ul;
-  font-family-margin: 0;
-  font-family-padding: 0;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+.nav ul {
+  margin: 0;
+  padding: 0;
 }
 .nav li {
-  padding: 20px;
+  padding-top: 27px;
   margin: 0;
   display: inline-block;
 }
@@ -296,6 +297,10 @@ h2 {
   font-size: 20px;
   color: white;
   padding: 20px;
+  transition: all 0.2s;
+}
+.nav li a:hover {
+  border-bottom: 5px solid #902b15;
 }
 
 /* sidebar */
@@ -303,6 +308,43 @@ h2 {
 footer {
   background: black;
   clear: both;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  color: white;
+  text-align: right;
+}
+footer .socialicons {
+  width: 40%;
+  float: left;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+footer .icon {
+  width: 45px;
+  height: 45px;
+  float: left;
+  margin-right: 10px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+footer .github {
+  background: url(img/icons/github.png);
+  background-size: contain;
+}
+footer .twitter {
+  background: url(img/icons/twitter.svg);
+  background-size: contain;
+}
+footer .linkedin {
+  background: url(img/icons/linkedin.svg) center;
+}
+footer a:hover .icon {
+  box-shadow: 0 5px 0 #902b15;
+}
+footer p.copyright {
+  padding: 50px;
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 /*------------------------------------*\
@@ -335,7 +377,7 @@ article#post {
 }
 .banner .titlebox h1 {
   margin-top: 0;
-  padding-top: 75px;
+  padding-top: 40px;
   letter-spacing: -1px;
   font-size: 45px;
 }
