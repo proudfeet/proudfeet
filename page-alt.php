@@ -4,28 +4,33 @@ Template Name: Home Page
 */
  get_header(); ?>
 
- 	<div class="banner"></div>
+ 	<div class="banner">
+ 		<div class="titlebox">
+ 			<h1>Proudfeet</h1>
+ 			<h3>Front-end web developer working line by line to make the world a better place</h3>
+ 		</div>
+
+ 	</div>
+
+
+
 
 	<main class="wrapper" role="main">
 		<!-- section -->
 		<section>
 
-		
-
-			
-
+		<p class="headline"> Hi, I'm Simon, but you might know me as Proudfeet.</p>
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 			<!-- article -->
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
 				<?php the_content(); ?>
 
+				
 
 
 				<br class="clear">
 
-				<?php edit_post_link(); ?>
 
 			</article>
 			<!-- /article -->

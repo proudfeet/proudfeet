@@ -202,7 +202,7 @@ html {
 }
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   color: #444;
 }
 
@@ -254,7 +254,7 @@ input:focus {
 \*------------------------------------*/
 /* wrapper */
 .wrapper {
-  max-width: 1000px;
+  max-width: 900px;
   width: 95%;
   margin: 0 auto;
   position: relative;
@@ -264,6 +264,7 @@ input:focus {
 .header {
   background: black;
   color: white;
+  border-bottom: 5px solid #902b15;
 }
 
 /* logo */
@@ -272,9 +273,10 @@ input:focus {
   float: left;
 }
 
-h1 {
+h2 {
+  font-size: 25px;
   color: white;
-  padding: 20px;
+  letter-spacing: -1px;
   text-transform: uppercase;
 }
 
@@ -282,12 +284,19 @@ h1 {
 .nav {
   float: right;
 }
+.nav ul {
+  margin: 0;
+  padding: 0;
+}
 .nav li {
+  padding: 20px;
+  margin: 0;
   display: inline-block;
 }
 .nav li a {
   font-size: 20px;
   color: white;
+  padding: 20px;
 }
 
 /* sidebar */
@@ -300,9 +309,38 @@ footer {
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
+article#post {
+  color: #333;
+  font-size: 20px;
+  line-height: 20px;
+}
+
 .banner {
-  height: 500px;
   background: white url(img/simonProudfootHeadshot3Min.jpg) center no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 150px;
+  width: 100%;
+  border-bottom: 10px solid #f1c40f;
+}
+.banner .titlebox {
+  width: 500px;
+  height: 250px;
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+.banner .titlebox h1 {
+  margin-top: 0;
+  padding-top: 75px;
+  letter-spacing: -1px;
+  font-size: 45px;
+}
+.banner .titlebox h3 {
+  padding: 0 20px;
+  font-size: 20px;
 }
 
 article.post {
@@ -318,6 +356,10 @@ article.post {
 /*------------------------------------*\
     IMAGES
 \*------------------------------------*/
+img {
+  max-width: 100%;
+}
+
 /*------------------------------------*\
 	TYPOGRAPHY
 \*------------------------------------*/
