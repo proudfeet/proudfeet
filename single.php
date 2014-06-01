@@ -1,8 +1,8 @@
 <?php get_header(); ?>
 
-	<main class="wrapper" role="main">
+	<main class="contenthere" role="main">
 	<!-- section -->
-	<section>
+	<section class="wrapper">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
@@ -37,9 +37,6 @@
 
 			<p><?php _e( 'This post was written by ', 'html5blank' ); the_author(); ?></p>
 
-			<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
-
-			<!-- <?php comment_form(); ?> -->
 
 		</article>
 		<!-- /article -->

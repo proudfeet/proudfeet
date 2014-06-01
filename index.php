@@ -1,6 +1,5 @@
 <?php get_header(); ?>
 
-<h1>WHATS UP</h1>
 
 	<main class="wrapper" role="main">
 		<!-- section -->
@@ -14,7 +13,6 @@
 
 		</section>
 
-		<?php get_sidebar(); ?>
 		<!-- /section -->
 	</main>
 
