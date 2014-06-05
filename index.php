@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
 
-	<main class="wrapper" role="main">
+	<main class="contenthere" role="main">
 		<!-- section -->
-		<section>
+		<section class="wrapper blogposts">
 
-			<h1><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
+			<h1 class="latest"><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 
 			<?php get_template_part('loop'); ?>
 

@@ -287,7 +287,7 @@ h2 {
 }
 
 h2:hover {
-  color: #902b15;
+  color: #f1c40f;
 }
 
 /* nav */
@@ -361,6 +361,12 @@ footer p.copyright {
   text-transform: uppercase;
 }
 
+h1.latest {
+  padding-top: 100px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+  font-size: 60px;
+}
+
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
@@ -377,13 +383,12 @@ article.post {
 }
 
 .banner {
-  background: white url(img/simonProudfootHeadshot3Min.jpg) center no-repeat;
+  background: white url(img/chinatown.jpg) center no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  padding-top: 22 5px;
+  padding-top: 250px;
   padding-bottom: 150px;
   width: 100%;
-  border-bottom: 10px solid #f1c40f;
 }
 .banner .titlebox {
   width: 500px;
@@ -392,7 +397,7 @@ article.post {
   color: white;
   background: rgba(0, 0, 0, 0.2);
   text-transform: uppercase;
-  text-shadow: 1px 1px 0px #333;
+  text-shadow: 2px 2px 0px #333;
   border: 5px rgba(0, 0, 0, 0.5) solid;
 }
 .banner .titlebox h1 {
@@ -406,30 +411,27 @@ article.post {
   padding: 0 20px 50px;
   font-size: 20px;
 }
+.banner article.homepage {
+  padding: 0;
+  margin-top: 0;
+}
+.banner article.homepage p {
+  margin: 100px;
+}
 
 p.headline {
   margin: 0;
-  padding: 50px 0;
+  padding: 60px 0;
   font-size: 60px;
   font-weight: 900;
   border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
 
 article.homepage {
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-  font-size: 30px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 25px;
   font-weight: 500;
-  line-height: 60px;
-}
-
-article#post {
-  width: 70%;
-  float: left;
-}
-
-.sidebar {
-  width: 30%;
-  float: left;
+  line-height: 40px;
 }
 
 /*------------------------------------*\

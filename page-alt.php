@@ -4,6 +4,8 @@ Template Name: Home Page
 */
  get_header(); ?>
 
+
+	<!-- Photo by Rafael Fabricio Chiti -->
  	<div class="banner">
  		<div class="titlebox">
  			<h1>Proudfeet</h1>
@@ -23,8 +25,10 @@ Template Name: Home Page
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
 			<!-- article -->
-			<article class="post homepage" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<article class="homepage" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<br>
 				<?php the_content(); ?>
+				
 
 				
 
@@ -34,6 +38,9 @@ Template Name: Home Page
 
 			</article>
 			<!-- /article -->
+
+
+			
 
 		<?php endwhile; ?>
 
@@ -51,6 +58,7 @@ Template Name: Home Page
 
 		</section>
 		<!-- /section -->
+
 	</main>
 
 

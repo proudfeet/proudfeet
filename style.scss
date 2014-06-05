@@ -121,7 +121,7 @@ input:focus {
 	}
 
 	h2:hover {
-		color: $red;
+		color: $yellow;
 	}
 
 
@@ -213,6 +213,15 @@ footer {
 	}
 }
 
+// INDEX
+// *----------------------------------*
+
+h1.latest {
+	padding-top: 100px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+	font-size: 60px;
+}
+
 
 
 /*------------------------------------*\
@@ -236,24 +245,21 @@ article.post {
 // PAGE-ALT
 // *-------------------------------------*
 .banner {
-	background: white url(img/simonProudfootHeadshot3Min.jpg) center no-repeat;
+	background: white url(img/chinatown.jpg) center no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	padding-top: 22
-	5px;
+	padding-top: 250px;
 	padding-bottom: 150px;
 	width: 100%;
-	border-bottom: 10px solid $yellow;
 
 	.titlebox {
 		width: 500px;
-		// height: 250px;
 		margin: 0 auto;
 		text-align: center;
 		color: white;
 		background: rgba(0, 0, 0, 0.2);
 		text-transform: uppercase;
-		text-shadow: 1px 1px 0px #333;
+		text-shadow: 2px 2px 0px #333;
 		border: 5px rgba(0, 0, 0, 0.5) solid;
 
 
@@ -270,21 +276,31 @@ article.post {
 			font-size: 20px;
 		}
 	}
+
+	article.homepage {
+		padding: 0;
+		margin-top: 0;
+
+		p {
+			margin: 100px;
+		}
+	}
 }
+
 
 p.headline {
 		margin: 0;
-		padding: 50px 0;
+		padding: 60px 0;
 		font-size: 60px;
 		font-weight: 900;
 		border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 	}
 
 article.homepage {
-	font-family: $serif;
-	font-size: 30px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25px;
 	font-weight: 500;
-	line-height: 60px;
+	line-height: 40px;
 }
 
 
@@ -294,15 +310,9 @@ article.homepage {
 
 // SINGLE.PHP
 // -------------------------------------*
-article#post {
-	width: 70%;
-	float: left
-}
 
-.sidebar {
-	width: 30%;
-	float: left;
-}
+
+
 
 
 
