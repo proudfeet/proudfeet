@@ -125,16 +125,21 @@ input:focus {
 	text-align: center;
 }
 
-	h2 {
+	h2.titletag {
 		font-size: 25px;
 		color: white;
 		letter-spacing: -1px;
 		transition: all 0.2s;
-	}
 
-	a h2:hover,
-	a h2:focus {
-		color: $yellow;
+		a {
+		color: white;
+		transition: all 0.2s;
+		}
+
+		a:hover,
+		a:focus {
+			color: $yellow;
+		}
 	}
 
 
@@ -230,11 +235,13 @@ footer {
 // INDEX
 // *----------------------------------*
 
-h1.latest {
+h1.blogtitle {
 	padding-top: 100px;
 	border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 	font-size: 60px;
 }
+
+
 
 
 
@@ -246,8 +253,14 @@ main.contenthere {
 	background: url(img/whiteWall.png);
 }
 
+h1.pagetitle {
+	padding: 120px 0 20px;
+	font-family: "Lato", Helvetica, Arial, sans-serif;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.3);
+	font-size: 60px;
+}
+
 article.post {
-	padding-top: 100px;
 	color: #333;
 	font-size: 22px;
 	line-height: 30px;

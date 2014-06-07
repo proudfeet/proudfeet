@@ -10,6 +10,7 @@
 
 			<!-- article -->
 			<article  class="post" id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+			<h1 class="pagetitle"><?php the_title(); ?></h1>
 
 				<?php the_content(); ?>
 

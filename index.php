@@ -5,7 +5,7 @@
 		<!-- section -->
 		<section class="wrapper blogposts">
 
-			<h1 class="latest"><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
+			<h1 class="blogtitle"><?php _e( 'Latest Posts', 'html5blank' ); ?></h1>
 
 			<?php get_template_part('loop'); ?>
 

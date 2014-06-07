@@ -34,14 +34,12 @@
 
 					<!-- logo -->
 					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
+						
 							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<span class="metatextwrap">
-								<span class="textwrap">
-									<h2>Proudfeet</h2>
-								</span>
-							</span>
-						</a>
+									<h2 class="titletag">
+										<a href="<?php echo home_url(); ?>">Proudfeet.</a>
+									</h2>
+						
 					</div>
 					<!-- /logo -->
 
