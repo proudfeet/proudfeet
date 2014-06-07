@@ -70,7 +70,7 @@ Template Name: Home Page
 						</a>
 						<ul class="description">
 							<li>This is a small web app/game based on the children's book Where's Waldo. This was my first exploration into using jQuery and jQuery UI, that when combined with creative use of CSS positioning gave the appearance of a pinhole camera.</li>
-							<li><span class="technology">Technology used:</span> jQuery, jQuery UI, CSS</li>
+							<li><span class="technology">Technology used:</span> jQuery, jQuery UI, CSS positioning</li>
 						</ul>
 					</div>
 			</div>

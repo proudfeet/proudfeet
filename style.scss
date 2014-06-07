@@ -271,10 +271,10 @@ article.post {
 		margin: 0 auto;
 		text-align: center;
 		color: white;
-		background: rgba(0, 0, 0, 0.2);
+		// background: rgba(0, 0, 0, 0.2);
 		text-transform: uppercase;
 		text-shadow: 2px 2px 0px #333;
-		border: 5px rgba(0, 0, 0, 0.5) solid;
+		// border: 5px rgba(0, 0, 0, 0.5) solid;
 
 
 		h1 {
@@ -290,8 +290,6 @@ article.post {
 			font-size: 20px;
 		}
 	}
-
-	
 }
 
 
@@ -353,7 +351,13 @@ article.homepage {
 	clear: both;
 }
 
+// -------------------------------------
+// ABOUT PAGE
 
+p.description {
+	font-weight: bold;
+	font-size: 26px;
+}
 
 
 
