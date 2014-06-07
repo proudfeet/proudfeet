@@ -460,6 +460,20 @@ h2.featuredtitle {
   width: 30%;
   float: left;
 }
+.third img {
+  margin-bottom: 20px;
+}
+.third ul.description {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+.third .technology {
+  font-weight: bold;
+  color: #902b15;
+}
 
 .third:nth-child(3n+3) {
   margin: 0 5% 0 5%;

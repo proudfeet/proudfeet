@@ -215,7 +215,6 @@ footer {
 
 	a:hover .icon,
 	a:focus .icon{
-		// box-shadow: 0 5px 0 $red;
 		bottom: 10px;
 	}
 
@@ -321,11 +320,24 @@ h2.featuredtitle {
 .third {
 	width: 30%;
 	float: left;
-}
 
-.firstproject {
-}
+	img {
+		margin-bottom: 20px;
+	}
 
+	ul.description {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		font-size: 12px;
+		line-height: 18px;
+	}
+
+	.technology {
+		font-weight: bold;
+		color: $red;
+	}
+}
 
 .third:nth-child(3n+3) {
 	margin: 0 5% 0 5%;
