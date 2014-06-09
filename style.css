@@ -348,11 +348,16 @@ footer {
   color: white;
   text-align: right;
 }
+footer h2.contact {
+  text-transform: uppercase;
+  font-size: 22px;
+  text-align: left;
+  margin: 10px 0 0;
+}
 footer .socialicons {
   width: 40%;
   float: left;
-  padding-top: 35px;
-  padding-bottom: 35px;
+  padding: 25px 0 25px;
 }
 footer .icon {
   width: 45px;
@@ -379,11 +384,13 @@ footer a:hover .icon,
 footer a:focus .icon {
   bottom: 10px;
 }
-footer p.copyright {
-  padding: 50px;
+footer p.email {
+  padding: 25px 0 45px;
   margin: 0;
-  font-size: 18px;
-  text-transform: uppercase;
+  font-size: 26px;
+}
+footer p.email a {
+  color: #f1c40f;
 }
 
 h1.blogtitle {
@@ -396,11 +403,15 @@ h1.blogtitle {
   padding-bottom: 50px;
 }
 
-.postinfo a {
+.postinfo a,
+.authorinfo a {
   transition: all 0.2s;
 }
 
-.postinfo a:hover {
+.postinfo a:hover,
+.postinfo a:focus,
+.authorinfo a:hover,
+.authorinfo a:focus {
   background: #902b15;
   color: white;
 }
@@ -464,12 +475,23 @@ p.headline {
   padding: 60px 0;
   font-size: 60px;
   font-weight: 900;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+article.homepage {
+  padding: 0;
+  margin: 0;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 40px;
+  clear: both;
 }
 
 .featuredwork {
-  padding-bottom: 70px;
+  padding: 70px 0;
   font-family: "Lato", Helvetica, Arial, sans-serif;
+  border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 h2.featuredtitle {
@@ -503,16 +525,6 @@ h2.featuredtitle {
 
 .third:nth-child(3n+3) {
   margin: 0 5% 0 5%;
-}
-
-article.homepage {
-  padding: 0;
-  margin: 0;
-  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
-  font-size: 25px;
-  font-weight: 500;
-  line-height: 40px;
-  clear: both;
 }
 
 p.description {

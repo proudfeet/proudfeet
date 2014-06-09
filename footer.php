@@ -3,6 +3,8 @@
 			
 				<div class="wrapper">
 
+				<h2 class="contact">Find me</h2>
+
 					<div class="socialicons">
 						<a href="http://www.github.com/proudfeet" alt="Github" title="Github">
 							<div class="icon github"></div>
@@ -17,8 +19,8 @@
 
 
 					<!-- copyright -->
-					<p class="copyright">
-						&copy; <?php echo date('Y'); ?>  Proudfeet
+					<p class="email">
+						<a href="mailto:hello@proudfeet.io">hello@proudfeet.io</a>
 					</p>
 					<!-- /copyright -->
 				</div>

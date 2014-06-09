@@ -26,31 +26,31 @@
 	</head>
 	<body <?php body_class(); ?>>
 
-			<!-- header -->
-			<header class="header clear" role="banner">
-			
+		<!-- header -->
+		<header class="header clear" role="banner">
+		
 			<!-- wrapper -->
 			<div class="wrapper">
 
-					<!-- logo -->
-					<div class="logo">
-						
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-									<h2 class="titletag">
-										<a href="<?php echo home_url(); ?>">Proudfeet.</a>
-									</h2>
-						
-					</div>
-					<!-- /logo -->
+				<!-- logo -->
+				<div class="logo">
+					
+					<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
+					<h2 class="titletag">
+						<a href="<?php echo home_url(); ?>">Proudfeet.</a>
+					</h2>
+					
+				</div>
+				<!-- /logo -->
 
-					<!-- nav -->
-					<nav class="nav" role="navigation">
-						<?php html5blank_nav(); ?>
-					</nav>
-					<!-- /nav -->
+				<!-- nav -->
+				<nav class="nav" role="navigation">
+					<?php html5blank_nav(); ?>
+				</nav>
+				<!-- /nav -->
 
 			</div>
 			<!-- /wrapper -->
 
-			</header>
-			<!-- /header -->
+		</header>
+		<!-- /header -->

@@ -19,8 +19,8 @@
 
 		<!-- post details -->
 		<h3 class="authorinfo">
-			<span class="date"><?php the_time('F j, Y'); ?></span>
-			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+			<?php _e( 'Posted on ', 'html5blank' ); ?><span class="date"><?php the_time('F j, Y'); ?></span>
+			<span class="author"><?php _e( 'by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
 		</h3>
 		
 		<!-- /post details -->

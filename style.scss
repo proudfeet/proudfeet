@@ -186,11 +186,17 @@ footer {
 	color: white;
 	text-align: right;
 
+	h2.contact {
+		text-transform: uppercase;
+		font-size: 22px;
+		text-align: left;
+		margin: 10px 0 0;
+	}
+
 	.socialicons {
 		width: 40%;
 		float: left;
-		padding-top: 35px;
-		padding-bottom: 35px;
+		padding: 25px 0 25px;
 	}
 
 	.icon {
@@ -224,11 +230,14 @@ footer {
 	}
 
 
-	p.copyright {
-		padding: 50px;
+	p.email {
+		padding: 25px 0 45px;
 		margin: 0;
-		font-size: 18px;
-		text-transform: uppercase;
+		font-size: 26px;
+		
+		a {
+			color: $yellow;
+		}
 	}
 }
 
@@ -245,11 +254,15 @@ h1.blogtitle {
 	padding-bottom: 50px;
 }
 
-.postinfo a{
+.postinfo a,
+.authorinfo a{
 	transition: all 0.2s;
 }
 
-.postinfo a:hover {
+.postinfo a:hover,
+.postinfo a:focus,
+.authorinfo a:hover,
+.authorinfo a:focus {
 	background: $red;
 	color: white;
 }
@@ -258,6 +271,7 @@ h1.blogtitle {
 	font-family: $sans-serif;
 	font-size: 18px;
 }
+
 
 
 /*------------------------------------*\
@@ -324,12 +338,23 @@ p.headline {
 		padding: 60px 0;
 		font-size: 60px;
 		font-weight: 900;
-		border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+		border-bottom: 2px solid rgba(0, 0, 0, 0.1);
 	}
 
+article.homepage {
+	padding: 0;
+	margin: 0;
+	font-family: $serif;
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 40px;
+	clear: both;
+}
+
 .featuredwork {
-	padding-bottom: 70px;
+	padding: 70px 0;
 	font-family: $sans-serif;
+	border-top: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 h2.featuredtitle {
@@ -368,15 +393,7 @@ h2.featuredtitle {
 	margin: 0 5% 0 5%;
 }
 
-article.homepage {
-	padding: 0;
-	margin: 0;
-	font-family: $serif;
-	font-size: 25px;
-	font-weight: 500;
-	line-height: 40px;
-	clear: both;
-}
+
 
 
 // -------------------------------------

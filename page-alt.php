@@ -39,7 +39,7 @@ Template Name: Home Page
 							<img src="<?php echo get_bloginfo('template_url') ?>/img/screenCapWutangify.jpg" alt="Wutangify by Simon Proudfoot a.k.a Proudfeet" title="Wutangify by Simon Proudfoot a.k.a Proudfeet">
 						</a>
 						<ul class="description">
-							<li>This is a small webapp I built to stylize a character list from a requested movie into that of a Wu-Tang Clan poster using <a href="http://www.themoviedb.org">TheMovieDB.org</a>'s API by making several AJAX requests to pull character information about a requested movie.</li>
+							<li>This is a small webapp I built to stylize a character list from a requested movie into that of a Wu-Tang Clan poster. I used <a href="http://www.themoviedb.org">TheMovieDB.org</a>'s API to make several AJAX requests to pull character information about a requested movie.</li>
 							<li><span class="technology">Technology used:</span> JavaScript, jQuery, AngularJS, APIs, AJAX</li>
 						</ul>
 					</div>
