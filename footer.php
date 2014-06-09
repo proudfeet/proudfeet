@@ -28,7 +28,7 @@
 			<!-- /footer -->
 
 
-		<?php wp_footer(); ?>
+		
 
 		<!-- analytics -->
 		<script>
@@ -40,12 +40,11 @@
 		ga('send', 'pageview');
 		</script>
 
-		<script>
-		(function(){
-			alert("dddd")
-		});
-		</script>
-		
+		<script src="<?php echo get_template_directory_uri(); ?>/js/lib/jquery.smooth-scroll.min.js"></script>
+
+		<?php wp_footer(); ?>
+
+
 
 	</body>
 </html>

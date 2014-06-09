@@ -244,6 +244,40 @@ footer {
 			border-bottom: 3px solid white;
 		}
 	}
+
+	@-webkit-keyframes flash {
+		0% {
+			background: black;
+		}
+
+		50% {
+			background: $red;
+		}
+
+		100% {
+			background: black;
+		}
+	}
+
+	@keyframes flash {
+		0% {
+			background: black;
+		}
+
+		50% {
+			background: $red;
+		}
+
+		100% {
+			background: black;
+		}
+	}
+
+	.animated {
+		-webkit-animation: flash 1s linear infinite;
+		animation: flash 1s linear infinte;
+	}
+
 }
 
 // INDEX
