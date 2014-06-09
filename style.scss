@@ -237,6 +237,11 @@ footer {
 		
 		a {
 			color: $yellow;
+			transition: all 0.2s;
+		}
+
+		a:hover {
+			border-bottom: 3px solid white;
 		}
 	}
 }

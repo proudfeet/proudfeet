@@ -391,6 +391,10 @@ footer p.email {
 }
 footer p.email a {
   color: #f1c40f;
+  transition: all 0.2s;
+}
+footer p.email a:hover {
+  border-bottom: 3px solid white;
 }
 
 h1.blogtitle {
