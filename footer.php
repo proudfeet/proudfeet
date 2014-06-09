@@ -40,5 +40,12 @@
 		ga('send', 'pageview');
 		</script>
 
+		<script>
+		(function(){
+			alert("dddd")
+		});
+		</script>
+		
+
 	</body>
 </html>
