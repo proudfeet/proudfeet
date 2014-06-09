@@ -2,7 +2,7 @@
 
 	<main class="contenthere" role="main">
 	<!-- section -->
-	<section class="wrapper">
+	<section class="wrapper singleblog">
 
 	<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
@@ -24,12 +24,15 @@
 			<!-- /post title -->
 
 			<!-- post details -->
-			<span class="date"><?php the_time('F j, Y'); ?> <?php the_time('g:i a'); ?></span>
-			<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
-			<span class="comments"><?php comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
+			<h3>
+				<span class="date"><?php the_time('F j, Y'); ?></span>
+				<span class="author"><?php _e( 'Published by', 'html5blank' ); ?> <?php the_author_posts_link(); ?></span>
+			</h3>
 			<!-- /post details -->
 
 			<?php the_content(); // Dynamic Content ?>
+
+			<span class="comments"><?php comments_popup_link( __( 'Leave your thoughts', 'html5blank' ), __( '1 Comment', 'html5blank' ), __( '% Comments', 'html5blank' )); ?></span>
 
 			<?php the_tags( __( 'Tags: ', 'html5blank' ), ', ', '<br>'); // Separated by commas with a line break at the end ?>
 

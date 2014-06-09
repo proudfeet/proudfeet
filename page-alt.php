@@ -14,19 +14,12 @@ Template Name: Home Page
 
  	</div>
 
-
-
 	<main class="contenthere" role="main">
 		<!-- section -->
 		<section class="wrapper">
 
 
 		<p id="headline" class="headline"> Hi, I'm Simon, but you might know me as Proudfeet.</p>
-
-
-
-
-
 
 
 		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
@@ -36,9 +29,6 @@ Template Name: Home Page
 
 				<?php the_content(); ?>
 				
-
-				
-
 
 				<br class="clear">
 

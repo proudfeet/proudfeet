@@ -393,7 +393,21 @@ h1.blogtitle {
 }
 
 .blogposts {
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+}
+
+.postinfo a {
+  transition: all 0.2s;
+}
+
+.postinfo a:hover {
+  background: #902b15;
+  color: white;
+}
+
+.authorinfo {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 
 /*------------------------------------*\
@@ -455,6 +469,7 @@ p.headline {
 
 .featuredwork {
   padding-bottom: 70px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
 }
 
 h2.featuredtitle {
@@ -493,7 +508,7 @@ h2.featuredtitle {
 article.homepage {
   padding: 0;
   margin: 0;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
   font-size: 25px;
   font-weight: 500;
   line-height: 40px;
@@ -503,6 +518,10 @@ article.homepage {
 p.description {
   font-weight: bold;
   font-size: 26px;
+}
+
+.singleblog {
+  padding: 100px 0 40px;
 }
 
 /*------------------------------------*\
