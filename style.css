@@ -347,34 +347,6 @@ footer {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   color: white;
   text-align: right;
-  @-webkit-keyframes flash {
-    0% {
-      background: black;
-    }
-
-    50% {
-      background: #902b15;
-    }
-
-    100% {
-      background: black;
-    }
-}
-
-  @keyframes flash {
-    0% {
-      background: black;
-    }
-
-    50% {
-      background: #902b15;
-    }
-
-    100% {
-      background: black;
-    }
-}
-
 }
 footer h2.contact {
   text-transform: uppercase;
@@ -423,10 +395,6 @@ footer p.email a {
 }
 footer p.email a:hover {
   border-bottom: 3px solid white;
-}
-footer .animated {
-  -webkit-animation: flash 1s linear infinite;
-  animation: flash 1s linear infinte;
 }
 
 h1.blogtitle {
