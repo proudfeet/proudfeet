@@ -45,7 +45,7 @@ Template Name: Home Page
 					</div>
 
 					<div class="third secondproject">
-						<a href="">
+						<a href="/hackeryou">
 							<img src="<?php echo get_bloginfo('template_url') ?>/img/screenCapHackerYou.jpg" alt="HackerYou website recreation by Simon Proudfoot a.k.a. Proudfeet" title="HackerYou website recreation by Simon Proudfoot a.k.a. Proudfeet">
 						</a>
 						<ul class="description">
@@ -55,7 +55,7 @@ Template Name: Home Page
 					</div>
 
 					<div class="third thirdproject">
-						<a href="">
+						<a href="/whereswaldo">
 							<img src="<?php echo get_bloginfo('template_url') ?>/img/screenCapWheresWaldo.jpg" alt="Where's Waldo pinhole camera effect by Simon Proudfoot a.k.a. Proudfeet" title="Where's Waldo pinhole camera effect by Simon Proudfoot a.k.a. Proudfeet">
 						</a>
 						<ul class="description">
