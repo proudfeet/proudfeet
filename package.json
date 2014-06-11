@@ -1,0 +1,37 @@
+{
+  "name": "html5blank-master",
+  "version": "0.0.0",
+  "description": "Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hello"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/proudfeet/proudfeet.git"
+  },
+  "keywords": [
+    "Personal",
+    "site"
+  ],
+  "author": "Simon Proudfoot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/proudfeet/proudfeet/issues"
+  },
+  "homepage": "https://github.com/proudfeet/proudfeet",
+  "devDependencies": {
+    "gulp-autoprefixer": "0.0.7",
+    "gulp-cache": "^0.1.11",
+    "gulp-clean": "^0.3.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-imagemin": "^0.6.1",
+    "gulp-jshint": "^1.6.2",
+    "gulp-livereload": "^2.1.0",
+    "gulp-minify-css": "^0.3.4",
+    "gulp-notify": "^1.3.1",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^0.5.0",
+    "gulp-uglify": "^0.3.0"
+  }
+}
