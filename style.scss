@@ -395,12 +395,9 @@ h2.featuredtitle {
 	}
 }
 
-.third:nth-child(3n+3) {
+.secondproject {
 	margin: 0 5% 0 5%;
 }
-
-
-
 
 // -------------------------------------
 // ABOUT PAGE
@@ -411,21 +408,12 @@ p.description {
 }
 
 
-
-
-
-
-
 // SINGLE.PHP
 // -------------------------------------*
 
 .singleblog {
 	padding: 100px 0 40px;
 }
-
-
-
-
 
 
 /*------------------------------------*\
@@ -457,28 +445,34 @@ img {
     RESPONSIVE
 \*------------------------------------*/
 
-@media only screen and (min-width:320px) {
+
+@import 'portraitTablet';
+
+
+// GENERIC PHONE QUERY
+// ------------------------------------*
+@media only screen and (max-width:480px) {
+
+	.wrapper {
+		background: red;
+	}
 
 }
-@media only screen and (min-width:480px) {
+// CLOSE PHONE QUERY
+
+
+// IPHONE QUERY
+// ------------------------------------*
+@media only screen and (max-width:320px) {
+
+	.wrapper {
+		background: green;
+	}
 
 }
-@media only screen and (min-width:768px) {
+// CLOSE IPHONE QUERY
 
-}
-@media only screen and (min-width:1024px) {
 
-}
-@media only screen and (min-width:1140px) {
-
-}
-@media only screen and (min-width:1280px) {
-
-}
-@media only screen and (-webkit-min-device-pixel-ratio:1.5),
-	   only screen and (min-resolution:144dpi) {
-
-}
 
 /*------------------------------------*\
     MISC

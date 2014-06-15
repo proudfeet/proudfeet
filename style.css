@@ -527,7 +527,7 @@ h2.featuredtitle {
   color: #902b15;
 }
 
-.third:nth-child(3n+3) {
+.secondproject {
   margin: 0 5% 0 5%;
 }
 
@@ -561,6 +561,59 @@ img {
 /*------------------------------------*\
     RESPONSIVE
 \*------------------------------------*/
+@media only screen and (max-width: 768px) {
+  header {
+    padding-bottom: 10px;
+  }
+
+  .logo {
+    width: 100%;
+  }
+  .logo h2 {
+    font-size: 30px;
+  }
+
+  .nav {
+    clear: both;
+    width: 100%;
+  }
+  .nav ul {
+    text-align: center;
+  }
+  .nav li a {
+    padding: 15px;
+  }
+  .nav li a:hover {
+    border-bottom: 0px solid red;
+  }
+
+  .firstproject {
+    width: 100%;
+  }
+
+  .secondproject,
+  .thirdproject {
+    width: 48%;
+  }
+
+  .third:nth-child(3n+3) {
+    margin: 30px 1% 0 0;
+  }
+
+  .thirdproject {
+    margin: 30px 0 0 1%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .wrapper {
+    background: red;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .wrapper {
+    background: green;
+  }
+}
 /*------------------------------------*\
     MISC
 \*------------------------------------*/

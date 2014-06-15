@@ -34,35 +34,35 @@ Template Name: Home Page
 
 			<div class="featuredwork clearfix">
 				<h2 class="featuredtitle">Here's some work I've done</h3>
-					<div class="third firstproject">
-						<a href="/wutangify">
-							<img src="<?php echo get_bloginfo('template_url') ?>/img/screenCapWutangify.jpg" alt="Wutangify by Simon Proudfoot a.k.a Proudfeet" title="Wutangify by Simon Proudfoot a.k.a Proudfeet">
-						</a>
-						<ul class="description">
-							<li>This is a small web app I built to stylize a character list from a requested movie into that of a Wu-Tang Clan poster. I used <a href="http://www.themoviedb.org">TheMovieDB.org</a>'s API to make several AJAX requests to pull character information about a requested movie.</li>
-							<li><span class="technology">Technology used:</span> JavaScript, jQuery, AngularJS, APIs, AJAX</li>
-						</ul>
-					</div>
+				<div class="third firstproject">
+					<a href="/wutangify">
+						<img src="<?php echo get_bloginfo('template_url') ?>/img/screenCapWutangify.jpg" alt="Wutangify by Simon Proudfoot a.k.a Proudfeet" title="Wutangify by Simon Proudfoot a.k.a Proudfeet">
+					</a>
+					<ul class="description">
+						<li>This is a small web app I built to stylize a character list from a requested movie into that of a Wu-Tang Clan poster. I used <a href="http://www.themoviedb.org">TheMovieDB.org</a>'s API to make several AJAX requests to pull character information about a requested movie.</li>
+						<li><span class="technology">Technology used:</span> JavaScript, jQuery, AngularJS, APIs, AJAX</li>
+					</ul>
+				</div>
 
-					<div class="third secondproject">
-						<a href="/hackeryou">
-							<img src="<?php echo get_bloginfo('template_url') ?>/img/screenCapHackerYou.jpg" alt="HackerYou website recreation by Simon Proudfoot a.k.a. Proudfeet" title="HackerYou website recreation by Simon Proudfoot a.k.a. Proudfeet">
-						</a>
-						<ul class="description">
-							<li>This is a re-creation of an existing website based on an image given as a design asset. The task was to re-create the webpage based on the image alone, and use creative license to style appropriately for mobile devices.</li>
-							<li><span class="technology">Technology used:</span> HTML, CSS, jQuery, responsive design</li>
-						</ul>
-					</div>
+				<div class="third secondproject">
+					<a href="/hackeryou">
+						<img src="<?php echo get_bloginfo('template_url') ?>/img/screenCapHackerYou.jpg" alt="HackerYou website recreation by Simon Proudfoot a.k.a. Proudfeet" title="HackerYou website recreation by Simon Proudfoot a.k.a. Proudfeet">
+					</a>
+					<ul class="description">
+						<li>This is a re-creation of an existing website based on an image given as a design asset. The task was to re-create the webpage based on the image alone, and use creative license to style appropriately for mobile devices.</li>
+						<li><span class="technology">Technology used:</span> HTML, CSS, jQuery, responsive design</li>
+					</ul>
+				</div>
 
-					<div class="third thirdproject">
-						<a href="/whereswaldo">
-							<img src="<?php echo get_bloginfo('template_url') ?>/img/screenCapWheresWaldo.jpg" alt="Where's Waldo pinhole camera effect by Simon Proudfoot a.k.a. Proudfeet" title="Where's Waldo pinhole camera effect by Simon Proudfoot a.k.a. Proudfeet">
-						</a>
-						<ul class="description">
-							<li>This is a small web app/game based on the children's book Where's Waldo. This was my first exploration into using jQuery and jQuery UI, that when combined with creative use of CSS positioning gave the appearance of a pinhole camera.</li>
-							<li><span class="technology">Technology used:</span> jQuery, jQuery UI, CSS positioning</li>
-						</ul>
-					</div>
+				<div class="third thirdproject">
+					<a href="/whereswaldo">
+						<img src="<?php echo get_bloginfo('template_url') ?>/img/screenCapWheresWaldo.jpg" alt="Where's Waldo pinhole camera effect by Simon Proudfoot a.k.a. Proudfeet" title="Where's Waldo pinhole camera effect by Simon Proudfoot a.k.a. Proudfeet">
+					</a>
+					<ul class="description">
+						<li>This is a small web app/game based on the children's book Where's Waldo. This was my first exploration into using jQuery and jQuery UI, that when combined with creative use of CSS positioning gave the appearance of a pinhole camera.</li>
+						<li><span class="technology">Technology used:</span> jQuery, jQuery UI, CSS positioning</li>
+					</ul>
+				</div>
 			</div>
 
 			</article>
