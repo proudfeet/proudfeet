@@ -338,7 +338,10 @@ h2.titletag a:focus {
   border-bottom: 5px solid #902b15;
 }
 
-/* sidebar */
+h2.menubutton {
+  display: none;
+}
+
 /* footer */
 footer {
   background: black;
@@ -596,6 +599,54 @@ img {
 @media only screen and (max-width: 480px) {
   .wrapper {
     background: red;
+  }
+
+  .nav {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 96px;
+    display: none;
+    width: 100%;
+    margin: 0 auto;
+    transition: all 0.2s;
+  }
+  .nav li {
+    display: block;
+    border-top: 1px solid grey;
+    padding: 15px;
+    margin: 0;
+  }
+  .nav li a {
+    padding: 15px;
+    margin: 0;
+  }
+
+  .banner {
+    padding-top: 100px;
+    padding-bottom: 40px;
+  }
+  .banner .titlebox {
+    width: 100%;
+  }
+  .banner .titlebox h1 {
+    font-size: 35px;
+  }
+  .banner .titlebox h3 {
+    font-size: 16px;
+  }
+
+  h2.menubutton {
+    display: block;
+    position: absolute;
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    top: 18px;
+    right: 15px;
+  }
+  h2.menubutton a {
+    text-decoration: none;
+    color: #f1c40f;
   }
 }
 @media only screen and (max-width: 320px) {

@@ -52,5 +52,9 @@
 			</div>
 			<!-- /wrapper -->
 
+			<h2 class="menubutton">
+				<a href="#">&#x2261;</a>
+			</h2>
+
 		</header>
 		<!-- /header -->

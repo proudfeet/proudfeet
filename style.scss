@@ -91,6 +91,8 @@ input:focus {
 }
 
 
+
+
 /* logo */
 .logo {
 	width: 20%;
@@ -146,8 +148,10 @@ input:focus {
 	}
 }
 
-
-/* sidebar */
+// menu button
+h2.menubutton {
+	display: none;
+}
 
 
 /* footer */
