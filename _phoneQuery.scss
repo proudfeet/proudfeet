@@ -2,10 +2,8 @@
 // ------------------------------------*
 @media only screen and (max-width:480px) {
 
-	.wrapper {
-		background: red;
-	}
 
+	// header
 	.nav {
 		background: rgba(0, 0, 0, 0.3);
 		position: absolute;
@@ -19,11 +17,9 @@
 			display: block;
 			border-top: 1px solid grey;
 			padding: 15px;
-			margin: 0;
 
 			a {
 				padding: 15px;
-				margin: 0;
 			}
 		}
 	}
@@ -46,6 +42,7 @@
 		}
 	}
 
+	// "hamburger" button
 	h2.menubutton {
 		display: block;
 		position: absolute;
@@ -60,6 +57,54 @@
 			color: $yellow;
 		}
 	}
+
+
+// content starts here
+
+	// home page specific
+	p.headline {
+		font-size: 40px;
+	}
+
+	article.homepage {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	div.third {
+		width: 100%;
+		margin: 0 0 20px 0;
+	}
+
+	// about page specific
+	h1.pagetitle {
+		font-size: 40px;
+	}
+
+	p.description {
+		font-size: 20px;
+	}
+
+	// blog styles
+	h1.blogtitle {
+		font-size: 40px;
+	}
+
+	h2.postinfo {
+		font-size: 25px;
+	}
+
+	h3.authorinfo {
+		font-size: 16px;
+	}
+
+
+	// general styles
+	article.post {
+		font-size: 20px;
+	}
+
+
 
 	
 		
