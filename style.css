@@ -680,10 +680,16 @@ img {
   article.post {
     font-size: 20px;
   }
-}
-@media only screen and (max-width: 320px) {
-  .wrapper {
-    background: green;
+
+  footer .socialicons {
+    width: 100%;
+    margin: 0 auto;
+  }
+  footer p.email {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    clear: both;
   }
 }
 /*------------------------------------*\
