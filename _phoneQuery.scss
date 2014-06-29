@@ -2,38 +2,6 @@
 // ------------------------------------*
 @media only screen and (max-width:480px) {
 
-	.wrapper {
-		width: 100%;
-	}
-
-	main.contenthere,
-	article.post,
-	footer {
-		padding: 10px;
-	}
-
-
-
-	// header
-	.nav {
-		background: rgba(0, 0, 0, 0.8);
-		position: absolute;
-		top: 96px;
-		display: none;
-		width: 100%;
-		margin: 0 auto;
-		transition: all 0.2s;
-
-		li {
-			display: block;
-			border-top: 1px solid grey;
-			padding: 15px;
-
-			a {
-				padding: 15px;
-			}
-		}
-	}
 
 	.banner {
 		padding-top: 100px;
@@ -53,21 +21,7 @@
 		}
 	}
 
-	// "hamburger" button
-	h2.menubutton {
-		display: block;
-		position: absolute;
-		font-size: 40px;
-		padding: 0;
-		margin: 0;
-		top: 18px;
-		right: 15px;
-
-		a {
-			text-decoration: none;
-			color: $yellow;
-		}
-	}
+	
 
 
 // content starts here
@@ -132,17 +86,7 @@
 			padding: 15px;
 			clear: both;
 		}
-
-
-
-
-	}
-	
-
-
-
-	
-		
+	}	
 
 }
 // CLOSE PHONE QUERY
