@@ -43,6 +43,10 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/js/lib/jquery.smooth-scroll.min.js"></script>
 
 		<?php wp_footer(); ?>
+		<script type="text/javascript" src="http://localhost:48626/takana.js"></script>
+     <script type="text/javascript">
+       takanaClient.run({host: 'localhost:48626'});
+     </script>
 
 
 
