@@ -54,7 +54,7 @@ a:hover {
 	color:#444;
 }
 a:focus {
-	outline:0;
+	outline:1px;
 }
 a:hover,
 a:active {
@@ -139,7 +139,8 @@ input:focus {
 			color: white;
 			padding: 20px;
 			transition: all 0.2s;
-			}
+			font-weight: bold;
+		}
 
 		a:hover,
 		a:focus {
@@ -214,9 +215,11 @@ footer {
 		a {
 			color: $yellow;
 			transition: all 0.2s;
+			font-weight: bold;
 		}
 
-		a:hover {
+		a:hover,
+		a:focus {
 			border-bottom: 3px solid white;
 		}
 	}
@@ -240,14 +243,15 @@ h1.blogtitle {
 .authorinfo a{
 	line-height: 37.5px;
 	transition: all 0.2s;
+	display: inline-block;
+	border-bottom: 2px solid $red;
 }
 
 .postinfo a:hover,
 .postinfo a:focus,
 .authorinfo a:hover,
 .authorinfo a:focus {
-	background: $red;
-	color: white;
+	border-bottom: 2px solid $yellow;
 }
 
 .authorinfo {
@@ -260,6 +264,10 @@ h1.blogtitle {
 /*------------------------------------*\
     PAGES
 \*------------------------------------*/
+
+.section {
+	margin-bottom: 20px;
+}
 
 main.contenthere {
 	background: url(img/whiteWall.png);
@@ -277,6 +285,11 @@ article.post {
 	font-size: 22px;
 	line-height: 30px;
 	font-family: $serif;
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
 }
 
 
@@ -332,6 +345,24 @@ article.homepage {
 	font-weight: 500;
 	line-height: 40px;
 	clear: both;
+	
+	a {
+		transition: all 0.2s;
+		border-bottom: 2px solid transparent;
+		display: inline-block;
+
+		&:hover,
+		&:focus {
+			border-bottom: 2px solid $red;
+		}
+	}
+
+	p {
+
+		a {
+			border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+		}
+	}
 }
 
 .featuredwork {
@@ -350,9 +381,7 @@ h2.featuredtitle {
 	color: #333;
 }
 
-.third {
-	width: 30%;
-	float: left;
+.portfolio__item {
 
 	img {
 		margin-bottom: 20px;
@@ -364,10 +393,13 @@ h2.featuredtitle {
 		padding: 0;
 		font-size: 12px;
 		line-height: 18px;
+
+		li:nth-of-type(2) {
+			font-weight: bold;
+		}
 	}
 
 	.technology {
-		font-weight: bold;
 		color: $red;
 	}
 }

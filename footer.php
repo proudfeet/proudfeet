@@ -20,7 +20,7 @@
 
 					<!-- copyright -->
 					<p class="email">
-						<a href="mailto:hello@proudfeet.io">hello@proudfeet.io</a>
+						<a href="mailto:hello@proudfeet.io" title="Mail to hello@proudfeet.io, Simon Proudfoot">hello@proudfeet.io</a>
 					</p>
 					<!-- /copyright -->
 				</div>
@@ -43,11 +43,6 @@
 		<script src="<?php echo get_template_directory_uri(); ?>/js/lib/jquery.smooth-scroll.min.js"></script>
 
 		<?php wp_footer(); ?>
-		<script type="text/javascript" src="http://localhost:48626/takana.js"></script>
-     <script type="text/javascript">
-       takanaClient.run({host: 'localhost:48626'});
-     </script>
-
 
 
 	</body>

@@ -121,7 +121,15 @@ function html5blank_styles()
 
     wp_register_style('html5blank', get_template_directory_uri() . '/style.css', array(), '1.0', 'all');
     wp_enqueue_style('html5blank'); // Enqueue it!
+
+    wp_register_style('justagrid', get_template_directory_uri() . '/justagrid.css', array(), '1.0', 'all');
+    wp_enqueue_style('justagrid'); // Enqueue it!
+
+    // Google Fonts - Lato
+    wp_register_style('lato', "http://fonts.googleapis.com/css?family=Lato:900");
+    wp_enqueue_style('lato'); // Enqueue it!
 }
+
 
 // Register HTML5 Blank Navigation
 function register_html5_menu()
