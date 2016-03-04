@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/proudfeet/proudfeet",
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "gulp-clean-css": "^2.0.3"
   }
 }

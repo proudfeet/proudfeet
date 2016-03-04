@@ -49,6 +49,7 @@ img {
 a {
 	color:#444;
 	text-decoration:none;
+	transition: all 0.2s;
 }
 a:hover {
 	color:#444;
@@ -108,7 +109,6 @@ input:focus {
 
 		a {
 		color: white;
-		transition: all 0.2s;
 		}
 
 		a:hover,
@@ -138,7 +138,6 @@ input:focus {
 			font-size: 20px;
 			color: white;
 			padding: 20px;
-			transition: all 0.2s;
 			font-weight: bold;
 		}
 
@@ -188,17 +187,17 @@ footer {
 	}
 
 	.github {
-		background: url(img/icons/github.png);
+		background: url(../img/icons/github.png);
 		background-size: contain;
 	}
 
 	.twitter {
-		background: url(img/icons/twitter.svg);
+		background: url(../img/icons/twitter.svg);
 		background-size: contain;
 	}
 
 	.linkedin {
-		background: url(img/icons/linkedin.svg) center;
+		background: url(../img/icons/linkedin.svg) center;
 	}
 
 	a:hover .icon,
@@ -214,7 +213,6 @@ footer {
 		
 		a {
 			color: $yellow;
-			transition: all 0.2s;
 			font-weight: bold;
 		}
 
@@ -242,16 +240,13 @@ h1.blogtitle {
 .postinfo a,
 .authorinfo a{
 	line-height: 37.5px;
-	transition: all 0.2s;
 	display: inline-block;
 	border-bottom: 2px solid $red;
-}
 
-.postinfo a:hover,
-.postinfo a:focus,
-.authorinfo a:hover,
-.authorinfo a:focus {
-	border-bottom: 2px solid $yellow;
+	&:hover,
+	*:focus {
+		border-bottom: 2px solid $yellow;
+	}
 }
 
 .authorinfo {
@@ -270,7 +265,7 @@ h1.blogtitle {
 }
 
 main.contenthere {
-	background: url(img/whiteWall.png);
+	background: url(../img/whiteWall.png);
 }
 
 h1.pagetitle {
@@ -297,7 +292,7 @@ article.post {
 // PAGE-ALT
 // *-------------------------------------*
 .banner {
-	background: white url(img/chinatown.jpg) center no-repeat;
+	background: white url(../img/chinatown.jpg) center no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	padding-top: 250px;
@@ -347,7 +342,6 @@ article.homepage {
 	clear: both;
 	
 	a {
-		transition: all 0.2s;
 		border-bottom: 2px solid transparent;
 		display: inline-block;
 
@@ -385,6 +379,7 @@ h2.featuredtitle {
 
 	img {
 		margin-bottom: 20px;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 	}
 
 	ul.description {
@@ -421,7 +416,25 @@ p.description {
 // -------------------------------------*
 
 .singleblog {
-	padding: 100px 0 40px;
+	padding: 100px 10px 40px;
+
+	h1 {
+		line-height: 1;
+
+		a {
+			border-bottom: 2px solid transparent;
+		}
+	}
+
+	a {
+		display: inline-block;
+		border-bottom: 2px solid $red;	
+		
+		&:hover,
+		&:focus {
+			border-bottom: 2px solid $yellow;
+		}
+	}
 }
 
 
