@@ -76,6 +76,7 @@ input:focus {
 	width:95%;
 	margin:0 auto;
 	position:relative;
+	padding: 0 10px;
 }
 
 
@@ -240,7 +241,6 @@ h1.blogtitle {
 .postinfo a,
 .authorinfo a{
 	line-height: 37.5px;
-	display: inline-block;
 	border-bottom: 2px solid $red;
 
 	&:hover,
@@ -343,7 +343,6 @@ article.homepage {
 	
 	a {
 		border-bottom: 2px solid transparent;
-		display: inline-block;
 
 		&:hover,
 		&:focus {
@@ -416,7 +415,7 @@ p.description {
 // -------------------------------------*
 
 .singleblog {
-	padding: 100px 10px 40px;
+	padding: 100px 0 40px;
 
 	h1 {
 		line-height: 1;
@@ -427,13 +426,16 @@ p.description {
 	}
 
 	a {
-		display: inline-block;
 		border-bottom: 2px solid $red;	
 		
 		&:hover,
 		&:focus {
 			border-bottom: 2px solid $yellow;
 		}
+	}
+
+	br {
+		display: none;
 	}
 }
 
