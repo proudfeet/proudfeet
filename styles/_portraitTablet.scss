@@ -77,5 +77,25 @@
 		}
 	}
 
+	.footer {
+		text-align: center;
+
+		.contact {
+			text-align: center;
+		}
+
+		.email {
+			margin: 0;
+			text-align: center;
+			padding-top: 10px;
+		}
+
+		.socialicons {
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+	}
+
 }
 // CLOSE PORTRAIT TABLET

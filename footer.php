@@ -1,28 +1,35 @@
 			<!-- footer -->
-			<footer class="footer" id="contact" role="contentinfo">
+			<footer class="footer clearfix" id="contact" role="contentinfo">
 			
 				<div class="wrapper">
 
-				<h2 class="contact">Find me</h2>
-
-					<div class="socialicons">
-						<a href="http://www.github.com/proudfeet" alt="Github" title="Github">
-							<div class="icon github"></div>
-						</a>
-						<a href="http://www.twitter.com/proudfeet_" alt="Twitter" title="Twitter">
-							<div class="icon twitter"></div>
-						</a>
-						<a href="http://ca.linkedin.com/pub/simon-proudfoot/33/1b6/8b4/" alt="LinkedIn" title="LinkedIn">
-							<div class="icon linkedin"></div>
-						</a>
-					</div>
-
+				<h2 class="contact columns desk-twelve">Find me</h2>
 
 					<!-- copyright -->
-					<p class="email">
-						<a href="mailto:hello@proudfeet.io" title="Mail to hello@proudfeet.io, Simon Proudfoot">hello@proudfeet.io</a>
+					<p class="email columns desk-six tablet-twelve">
+						<a href="mailto:simon.d.proudfoot@gmail.com" title="Mail to simon.d.proudfoot@gmail.com, Simon Proudfoot">simon.d.proudfoot@gmail.com</a>
 					</p>
 					<!-- /copyright -->
+
+					<!-- social icons -->
+					<ul class="socialicons columns desk-six tablet-twelve">
+						<li class="social__icon">
+							<a class="icon github" href="http://www.github.com/proudfeet" alt="Github" title="Github">
+							</a>
+						</li>
+						
+						<li class="social__icon">
+							<a class="icon twitter" href="http://www.twitter.com/proudfeet_" alt="Twitter" title="Twitter">
+							</a>
+						</li>
+						
+						<li class="social__icon">
+							<a class="icon linkedin" href="http://ca.linkedin.com/pub/simon-proudfoot/33/1b6/8b4/" alt="LinkedIn" title="LinkedIn">
+							</a>
+						</li>
+					</ul>
+					<!--  /social icons -->
+
 				</div>
 			</footer>
 			<!-- /footer -->
